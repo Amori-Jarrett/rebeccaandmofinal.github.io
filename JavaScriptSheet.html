@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript Cheat Sheet</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body class="JS">
+
+<header>
+  <h1>JavaScript Cheat Sheet</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="Rebecca'sHobbyInterest.html">Rebecca's Hobbies/Interests</a>  |
+    <a href="MO'sHobbyInterest.html">MO's Hobbies/Interests</a> |
+    <a href="JavaScriptSheet.html">JavaScript Cheat Sheet</a> |
+    <a href="CSSCheatSheet.html">CSS Cheat Sheet</a>
+  </nav>
+</header>
+
+<main>
+    <!-- JavaScript examples -->
+    <section>
+      <h2>Variables</h2>
+      <pre><code>let firstName = "Rebecca";
+  const age = 22;
+  var hobby = "kayaking";</code></pre>
+    </section>
+  
+    <section>
+      <h2>Functions</h2>
+      <pre><code>function greet(name) {
+        alert(`Howdy, ${name}!`);
+    }</code></pre>
+      
+      <button onclick="greet('Rebecca')">Greet Me!</button>
+    </section>
+  
+    <section>
+      <h2>Conditionals</h2>
+      <pre><code>if (age > 18) {
+    console.log("Adult");
+  } else {
+    console.log("Minor");
+  }</code></pre>
+    </section>
+  
+    <section>
+      <h2>Loops</h2>
+      <pre><code>for (let i = 0; i < 5; i++) {
+    console.log(i);
+  }</code></pre>
+    </section>
+  
+    <section>
+      <h2>Arrays</h2>
+      <pre><code>let animals = ["horse", "cow", "buffalo"];
+  console.log(animals[0]);</code></pre>
+    </section>
+  
+    <section>
+      <h2>Objects</h2>
+      <pre><code>let truck = {
+    make: "Ford",
+    model: "F-150",
+    year: 2022
+  };</code></pre>
+    </section>
+  
+    <section>
+      <h2>DOM Manipulation</h2>
+      <pre><code>document.getElementById("demo").innerHTML = "Ride on, cowboy!";</code></pre>
+      <div id="demo"></div>
+    </section>
+  
+    <section>
+      <h2>Template Literals</h2>
+      <pre><code>let greeting = `Welcome, ${firstName}!`;</code></pre>
+    </section>
+  
+    <section>
+      <h2>Arrow Functions</h2>
+      <pre><code>const sayHowdy = () => "Howdy, partner!";</code></pre>
+    </section>
+  
+  </main>
+
+<footer>
+    <p> &copy; 2025 Rebecca</p>
+    <p> &copy; 2025 MO</p>
+</footer>
+
+<script>
+  function greet(name) {
+    alert(`Howdy, ${name}!`);
+  }
+</script>
+
+</body>
+</html>

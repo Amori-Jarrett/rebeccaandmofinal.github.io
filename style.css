@@ -1,0 +1,159 @@
+/* Cowboy Themed Styles */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body 
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #5c4033;
+    margin: 0;
+    padding: 20px;
+}
+
+body.home-page 
+{
+    background-image: url('CowboyBackground.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f1e4; 
+}
+
+body.Rebecca
+{
+    background-image: url('CowboyBackground3.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f1e4;
+}
+
+body.MO
+{
+    background-image: url('MOBackground.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f1e4; 
+}
+
+body.JS
+{
+    background-image: url('CowboyBackground4.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f1e4; 
+}
+
+body.CSS
+{
+    background-image: url('CowboyBackground5.webp'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f1e4; 
+}
+table 
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; 
+    width: 80%; 
+}
+
+h1, h2 
+{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+    color: #5c4033;
+}
+
+h1 
+{
+    font-size: 3em;
+}
+
+header, footer 
+{
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px dashed #8b5a2b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888;
+}
+
+nav 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a 
+{
+    color: #8b0000;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+nav a:hover 
+{
+    color: #c71585;
+}
+
+main 
+{
+    padding: 20px;
+}
+
+section 
+{
+    background: rgba(255, 255, 255, 0.85);
+    border: 3px dashed #8b5a2b;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888;
+    text-align: center;
+}
+
+img 
+{
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border: 2px dashed #8b5a2b;
+    border-radius: 10px;
+}
+
+pre 
+{
+    background: #eee;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+code 
+{
+    background-color: #eee;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: #c71585;
+}
+
+footer p 
+{
+    text-align: center;
+    margin: 0;
+}
